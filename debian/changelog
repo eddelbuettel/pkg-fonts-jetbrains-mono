@@ -1,0 +1,8 @@
+fonts-jetbrains-mono (1.0.1-0local1) unstable; urgency=low
+
+  * Initial "local" package -- not uploaded to Debian as it is not
+    entirely clear what the copyright situation for the toolchain is
+    
+  * Packaging based on earlier pkg-fonts-* in my github repo
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 23 Jan 2020 19:40:06 -0600
