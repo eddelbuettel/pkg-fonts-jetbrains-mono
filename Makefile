@@ -23,7 +23,7 @@ all:
 	test -f ${outfile} || wget ${srcfile}
 	unzip ${outfile}
 	mkdir ttf
-	mv JetBrainsMono-master/ttf/*.ttf ttf/
+	mv JetBrainsMono-master/fonts/ttf/*.ttf ttf/
 	rm -rf JetBrainsMono-master
 
 clean:
