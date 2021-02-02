@@ -13,7 +13,7 @@
 ## to have the package build using 'fake' suid, do not sign (as we're
 ## not uploading anywhere) and clean.
 ##
-## Copyright (C) 2016 - 2020  Dirk Eddelbuettel
+## Copyright (C) 2016 - 2021  Dirk Eddelbuettel
 ## and released under GPL (>=2 )
 
 srcfile=https://github.com/JetBrains/JetBrainsMono/archive/master.zip
@@ -22,10 +22,11 @@ outfile=$(shell basename ${srcfile})
 all:
 	test -f ${outfile} || wget ${srcfile}
 	unzip ${outfile}
-	mkdir ttf
+	mkdir ttf otf
 	mv JetBrainsMono-master/fonts/ttf/*.ttf ttf/
+	mv JetBrainsMono-master/fonts/otf/*.otf otf/
 	rm -rf JetBrainsMono-master
 
 clean:
 	rm -f ${outfile}
-	rm -rf ttf/
+	rm -rf ttf/ otf/

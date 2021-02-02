@@ -1,1 +1,2 @@
 ttf/*.ttf usr/share/fonts/truetype/jetbrains-mono
+otf/*.otf usr/share/fonts/opentype/jetbrains-mono

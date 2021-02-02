@@ -1,3 +1,10 @@
+fonts-jetbrains-mono (2.225-0local1) unstable; urgency=medium
+
+  * Updated with new upstream zip file,
+  * Also updated Makefile thanks to PR #2
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 01 Feb 2021 21:11:18 -0600
+
 fonts-jetbrains-mono (1.0.1-0local1) unstable; urgency=low
 
   * Initial "local" package -- not uploaded to Debian as it is not

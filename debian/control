@@ -2,15 +2,15 @@ Source: fonts-jetbrains-mono
 Section: fonts
 Priority: optional
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Build-Depends: debhelper (>= 10), wget
-Standards-Version: 4.4.2
+Build-Depends: debhelper-compat (= 11), wget
+Standards-Version: 4.5.1
 Homepage: https://jetbrains.com/lp/mono
 
 Package: fonts-jetbrains-mono
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Description: Jetbrains Monon Typeface 
+Description: Jetbrains Mono Typeface 
  See https://www.jetbrains.com/lp/mono/
  .
  The packaging is informal. I do not plan to upload this to Debian as
